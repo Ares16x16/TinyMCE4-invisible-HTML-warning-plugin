@@ -1,0 +1,1 @@
+# TinyMCE4-invisible-HTML-warning-plugin
