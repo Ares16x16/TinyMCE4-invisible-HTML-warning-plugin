@@ -9,7 +9,6 @@ Works with TinyMCE 4
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/53cb8fba-44c2-4196-9479-66fd4deab245)
 
-In source code:
 ![image](https://github.com/user-attachments/assets/f3f72d14-b946-4f6d-a997-484132d4fcb1)
 
 
@@ -48,6 +47,6 @@ textArea.add(new TinyMceBehavior(tinyMceSettings));
 The plugin monitors the editor's content and detects:
 
 - Total character count (both text and HTML)
-- Empty elements like <h> </h> or <p><br / ></p> that appear invisible to users
+- Empty elements like `<h> </h>` or `<p><br / ></p>` that appear invisible to users
 - When content appears empty but contains hidden HTML elements
 - When empty elements are detected, the plugin displays a warning and suggests using the HTML view (code button) to properly clear the content.
